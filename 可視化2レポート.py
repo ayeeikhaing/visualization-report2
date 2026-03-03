@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
 
-st.title("都道府県人口の変化を可視化")
+st.title("日本の都道府県人口の変化を可視化")
 url = "https://en.wikipedia.org/wiki/List_of_Japanese_prefectures_by_population"
 headers = {"User-Agent": "Mozilla/5.0"}
 response = requests.get(url, headers=headers)
@@ -746,6 +746,7 @@ plt.rcParams['font.family'] = 'Japanize-matplotlib'
 plt.rcParams['axes.spines.top'] = False 
 
 plt.rcParams['axes.spines.right'] = False 
+
 
 
 
