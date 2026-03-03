@@ -6,5 +6,7 @@ requests
 lxml
 plotly
 networkx
+japanize-matplotlib
+
 
 
