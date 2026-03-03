@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
-import japanize-matplotlib
+
 
 st.title("日本の都道府県人口の変化を可視化")
 url = "https://en.wikipedia.org/wiki/List_of_Japanese_prefectures_by_population"
@@ -747,6 +747,7 @@ plt.rcParams['font.family'] = 'Japanize-matplotlib'
 plt.rcParams['axes.spines.top'] = False 
 
 plt.rcParams['axes.spines.right'] = False 
+
 
 
 
