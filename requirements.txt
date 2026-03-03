@@ -1,7 +1,8 @@
 streamlit
 pandas
-plotly
 matplotlib
+seaborn
 requests
-numpy
-japanize-matplotlib
+lxml
+plotly
+
