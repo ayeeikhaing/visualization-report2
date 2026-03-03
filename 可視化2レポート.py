@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import japanize_matplotlib  
 import requests
 import seaborn as sns
 
@@ -745,4 +744,5 @@ sns.set_context("talk")
 plt.rcParams['font.family'] = 'Japanize-matplotlib' 
 
 plt.rcParams['axes.spines.top'] = False 
+
 plt.rcParams['axes.spines.right'] = False 
